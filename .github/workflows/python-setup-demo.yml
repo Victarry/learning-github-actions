@@ -13,5 +13,7 @@ jobs:
           python-version: '3.10'
       - name: Check python location
         run: echo `which python`
+      - name: Check python3 location
+        run: echo `which python3`
       - name: Run Python script
         run: python3 -c "print('work')"
